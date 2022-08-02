@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 5px;
+
+}
+
+.i-frame {
+    flex: 1 600px;
+  
+}
+.i-thumbnails{
+    flex: 1 300px;
+    display: inline-block;
+}
+
+.thumbnails{
+    display: inline-block;
+}
+.one{
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.icons{
+   /* display: inline-flex; */
+   display: flex;
+   gap: 20px;
+}
+
+
+.channel{
+    display: flex;
+}
+
+button{
+    background: red;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 3px;
+}
